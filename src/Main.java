@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Main {
+public class Main {
+    public static void main(String[] args) {
+        Vehicle myCar = new Vehicle("Ford", "Fusion");
+        System.out.println(myCar.make);
+        System.out.println(myCar.model);
+    }
 }
